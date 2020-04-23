@@ -3,7 +3,7 @@ class Printer {
         System.out.println("Pętla while:");
         while (min <= max) {
             System.out.println(min);
-            min++;
+            min += 0.5;
         }
     }
 
@@ -11,7 +11,7 @@ class Printer {
         System.out.println("Pętla do...while:");
         do {
             System.out.println(min);
-            min++;
+            min += 0.5;
         } while (min <= max);
     }
 
